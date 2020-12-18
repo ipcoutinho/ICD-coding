@@ -23,6 +23,7 @@ Different alternatives of the baseline model are also reported, namely multi-lab
     title = {Mogrifier LSTM},
     year = {2020}
 }
+
 @article{Pennington2014,
     author = {Pennington, Jeffrey and Socher, Richard and Manning, Christopher D},
     title = {GloVe : Global Vectors for Word Representation},
@@ -31,6 +32,7 @@ Different alternatives of the baseline model are also reported, namely multi-lab
     pages = {1532--1543},
     year = {2014}
 }
+
 @article{Li2020dice,
     author = {Li, Xiaoya and Sun, Xiaofei and Meng, Yuxian and Liang, Junjun and Wu, Fei and Li, Jiwei},
     journal = {arXiv preprint arXiv:1911.02855v2},
@@ -52,6 +54,7 @@ The code was tested with Pyhton 3.8.5 and Tensorflow 2.3.0.
     volume = {3},
     year = {2016}
 }
+
 @inproceedings{Mullenbach2018,
     author = {Mullenbach, James and Wiegreffe, Sarah and Duke, Jon and Sun, Jimeng and Eisenstein, Jacob},
     booktitle = {Proceedings of NAACL-HLT},
@@ -59,7 +62,13 @@ The code was tested with Pyhton 3.8.5 and Tensorflow 2.3.0.
     title = {Explainable Prediction of Medical Codes from Clinical Text},
     year = {2018}
 }
+
 </code></pre>
 
 # Training model
 
+<ol>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish</li>
+</ol>
