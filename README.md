@@ -13,7 +13,7 @@ This work was developed in the context of a MSc thesis at Instituto Superior Té
 }
 </code></pre>
 
-Different alternatives of the baseline model are also reported, namely multi-label smoothing regularization, conjugating non-standard loss functions, different attention mechanisms, distinct strategies for initializing the weights of the final node of the network, Mogrifier LSTM (Melis et al., 2020) as an alternative recurrent unit, data augmentation, and pretrained word embeddings using the GloVe model (Pennington et al., 2014). The proposed multi-label smoothing strategy, leveraging the hierarchical structure of the ICD codes, and the adoption of dice loss, in specific the log-cosh Tvserky loss, in conjugation with the binary cross-entropy objective to address the data imbalance issue (Li et al., 2020), prove to be very effective in this classification task. Data augmentation, based on a back-translation process, and pretrained word embeddings are also incorporated into the full proposed model. 
+Different alternatives of the baseline model are reported, namely multi-label smoothing regularization, conjugating non-standard loss functions, different attention mechanisms, distinct strategies for initializing the weights of the final node of the network, Mogrifier LSTM (Melis et al., 2020) as an alternative recurrent unit, data augmentation, and pretrained word embeddings using the GloVe model (Pennington et al., 2014). The proposed multi-label smoothing strategy, leveraging the hierarchical structure of the ICD codes, and the adoption of dice loss, in specific the log-cosh Tvserky loss, in conjugation with the binary cross-entropy objective to address the data imbalance issue (Li et al., 2020), prove to be very effective in this classification task. Data augmentation, based on a back-translation process, and pretrained word embeddings are also incorporated into the full proposed model. 
 
 <pre><code>
 @inproceedings{Melis2020,
@@ -62,14 +62,13 @@ The code was tested with Pyhton 3.8.5 and Tensorflow 2.3.0.
     title = {Explainable Prediction of Medical Codes from Clinical Text},
     year = {2018}
 }
-
 </code></pre>
 
 # Training model
 
 <ol>
-<li>Using a .txt file with your training and validation sets(see example_train.txt and example_val.txt), execute the training.ipynb.</li>
+<li>Using a .txt file with your training and validation sets (see example_train.txt and example_val.txt), execute the training.ipynb. These example .txt files were built accordingly with the MIMIC III dataset statistics. Therefore, the number of sentences per discharge summary was truncated to the percentile 95, reducing the computational cost (211). </li>
 <li>The following files are saved: model.h5, DICT.npy and LABEL_ENCONDER.npy. These are the files needed to load the model in the prediction.ipynb notebook. </li>
-<li>To predict the ICD codes of the test set, use prediction.ipynb. This notebook loads the files mentioned above and saves the following files: prediction_matrix.npy, y_pred.npy and predictions.npy. </li>
+<li>To predict the ICD codes of the test set, execute prediction.ipynb. This notebook loads the files mentioned above and saves the following files: prediction_matrix.npy, y_pred.npy and predictions.npy. </li>
 <li>To measure the predictive capability of the model, use the evaluation.py script made available by Mullenbach et al. (2018).</li>
 </ol>
