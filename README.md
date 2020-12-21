@@ -41,7 +41,7 @@ Different alternatives of the baseline model are reported, namely multi-label sm
 }
 </code></pre>
 
-The experiments were conducted on the MIMIC III dataset (Johnson et al., 2016), following the splits of dataset made publicly available by Mullenbach et al. (2018).
+The experiments were conducted on the MIMIC III dataset (Johnson et al., 2016), following the splits of dataset made publicly available by Mullenbach et al. (2018) at github.com/jamesmullenbach/caml-mimic.
 
 The code was tested with Pyhton 3.8.5 and Tensorflow 2.3.0.
 
