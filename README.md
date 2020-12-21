@@ -33,7 +33,7 @@ Different alternatives of the baseline model are reported, namely multi-label sm
     year = {2014}
 }
 
-@article{Li2020dice,
+@article{Li2020,
     author = {Li, Xiaoya and Sun, Xiaofei and Meng, Yuxian and Liang, Junjun and Wu, Fei and Li, Jiwei},
     journal = {arXiv preprint arXiv:1911.02855v2},
     title = {Dice Loss for Data-imbalanced NLP Tasks},
@@ -70,5 +70,5 @@ The code was tested with Pyhton 3.8.5 and Tensorflow 2.3.0.
 <li>Using a .txt file with the training and validation sets (see example_train.txt and example_val.txt), execute the training.ipynb. These example .txt files were built accordingly with the MIMIC III dataset statistics. Therefore, the number of sentences per discharge summary was truncated to the percentile 95, reducing the computational cost (211).</li>
 <li>The following files are saved: model.h5, DICT.npy and LABEL_ENCONDER.npy. These are the files needed to load the model in the prediction.ipynb notebook.</li>
 <li>To predict the ICD codes of the test set, execute prediction.ipynb (see example_test.txt). This notebook loads the files mentioned above and saves the following files: prediction_matrix.npy, y_pred.npy and predictions.npy.</li>
-<li>To measure the predictive capability of the model, use the evaluation.py script made available by Mullenbach et al. (2018).</li>
+<li>To measure the predictive capability of the model, use the evaluation.py script made available by Mullenbach et al. (2018), using the files mentioned in the previous point. </li>
 </ol>
