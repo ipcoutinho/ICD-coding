@@ -47,7 +47,7 @@ The code was tested with Pyhton 3.8.5 and Tensorflow 2.3.0.
 
 <pre><code>
 @article{Johnson2016,
-    author = {Johnson, Alistair E.W. and Pollard, Tom J. and Shen, Lu and Lehman, Li Wei H. and Feng, Mengling and Ghassemi, Mohammad and Moody, Benjamin and Szolovits, Peter     and {Anthony Celi}, Leo and Mark, Roger G.},
+    author = {Johnson, Alistair E.W. and Pollard, Tom J. and Shen, Lu and Lehman, Li Wei H. and Feng, Mengling and Ghassemi, Mohammad and Moody, Benjamin and Szolovits, Peter and Anthony Celi, Leo and Mark, Roger G.},
     journal = {Scientific Data},
     pages = {1--9},
     title = {MIMIC-III, a freely accessible critical care database},
