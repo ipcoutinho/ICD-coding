@@ -6,7 +6,7 @@ This work was developed in the context of a MSc thesis at Instituto Superior Té
 @article{Duarte2018,
     author = {Duarte, Francisco and Martins, Bruno and Sousa, C{\'{a}}tia and Silva, M{\'{a}}rio J},
     journal = {Journal of Biomedical Informatics},
-    title = {{Deep neural models for ICD-10 coding of death certificates and autopsy reports in free-text}},
+    title = {Deep neural models for ICD-10 coding of death certificates and autopsy reports in free-text},
     volume = {80},
     pages={64--77},
     year = {2018}
